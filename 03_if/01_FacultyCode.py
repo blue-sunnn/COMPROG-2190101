@@ -4,5 +4,7 @@ faculty_name = ['01', '02', '20', '21', '22', '23', '24', '25', '26',
 
 n = input()
 
-if n in faculty_name : print('OK')
-else : print('Error')
+if n in faculty_name:
+    print('OK')
+else:
+    print('Error')
