@@ -12,7 +12,7 @@ t2 = (h2 * 3600) + (m2 * 60) + s2
 # calculate the diff between t1 & t2
 # using + & % to get positive value
 dt = t2 - t1
-dh = (24 + (dt // 3600)) % 24 
+dh = (24 + (dt // 3600)) % 24
 dt -= dh * 3600
 
 dm = (60 + (dt // 60)) % 60
