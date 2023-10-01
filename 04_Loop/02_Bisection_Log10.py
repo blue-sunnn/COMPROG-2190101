@@ -5,10 +5,8 @@ U = a
 x = (L + U) / 2
 # change x^2 -> 10^x
 while abs(a - (10 ** x)) > (10 ** -10) * max(a, 10 ** x):
-    if 10 ** x > a:
-        U = x
-    elif 10 ** x < a:
-        L = x
+    if 10 ** x > a: U = x
+    elif 10 ** x < a: L = x
     x = (L + U) / 2
 
 print(round(x, 6))

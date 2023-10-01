@@ -5,15 +5,12 @@ symbols = ['(', ')', "'", '.', '"', ',']
 mtl = []
 
 for i in s:
-    if i not in symbols:
-        mtl.append(i)
-    else:
-        mtl.append(' ')
+    if i not in symbols: mtl.append(i)
+    else: mtl.append(' ')
 
 s = ''.join(mtl)
 
 for i in s.split():
-    if i == k:
-        count += 1
+    if i == k: count += 1
 
 print(count)

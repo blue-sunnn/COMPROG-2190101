@@ -12,8 +12,7 @@ def odd_list(alist):
     # return list of odd numbers
     x = []
     for i in alist:
-        if i % 2 != 0:
-            x.append(i)
+        if i % 2 != 0: x.append(i)
     return x
 
 

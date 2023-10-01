@@ -16,10 +16,10 @@ def distance3(c1, c2):
     # return the distance between the center of c1 and c2 and display if c1 and c2 are overlapping or not
     d = distance2(c1[:2], c2[:2])
     if d <= (c1[2] + c2[2]):
-        overlap = True
+        ol = True
     else:
-        overlap = False
-    return d, overlap
+        ol = False
+    return d, ol
 
 
 def perimeter(points):

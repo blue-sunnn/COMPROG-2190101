@@ -12,7 +12,5 @@ elif n // (10 ** 3) > 0:
 else:
     alp = ''
 
-if n > 9:
-    print(str(round(n)) + alp)
-else:
-    print(str(round(n, 1)) + alp)
+if n > 9: print(str(round(n)) + alp)
+else: print(str(round(n, 1)) + alp)

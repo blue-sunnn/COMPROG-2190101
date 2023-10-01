@@ -15,9 +15,7 @@ while b != -1:
 
 mtl = mtl[:-1]  # not include '-1' in list
 for i in range(len(mtl)):
-    if i % 2 == 0:
-        mtl1.append(mtl[i])
-    else:
-        mtl1.insert(0, mtl[i])
+    if i % 2 == 0: mtl1.append(mtl[i])
+    else: mtl1.insert(0, mtl[i])
 
 print(mtl1)

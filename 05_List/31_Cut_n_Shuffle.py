@@ -11,5 +11,4 @@ for i in range(len(o)):
             temp.append(d[j])
             temp.append(d[j + n])
         d = temp
-
 print(' '.join(d))

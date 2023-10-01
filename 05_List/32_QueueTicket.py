@@ -19,8 +19,7 @@ for _ in range(n):
     elif x[0] == 'order':
         idx = ticket.index(order)
         timeorder[idx] = int(x[1])  # replace 0 in timeorder
-        toShow.append('qtime ' + str(order) + ' ' +
-                      str(timeorder[idx] - timein[idx]))
+        toShow.append('qtime ' + str(order) + ' ' + str(timeorder[idx] - timein[idx]))
     elif x[0] == 'avg_qtime':
         s, c = 0, 0
         for i in range(len(timeorder)):

@@ -15,7 +15,5 @@ for i in range(len(il)):
 
 mtl = ''.join(mtl)
 
-if mtl == il:
-    print(il)
-else:
-    print(mtl)
+if mtl == il: print(il)
+else: print(mtl)

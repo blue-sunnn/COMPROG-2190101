@@ -11,6 +11,7 @@ uids = input().split()
 
 for i in uids:
     grades[ids.index(i)] = aup[max(0, aup.index(grades[ids.index(i)]) - 1)]
+    
 for j in range(len(ids)):
     y = []
     y.append(ids[j])

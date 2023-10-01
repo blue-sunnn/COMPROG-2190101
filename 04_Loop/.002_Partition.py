@@ -1,7 +1,7 @@
 d = list(map(int, input().split()))
 
 p = d[-1]
-i = 0  # change so that last line work
+i = 0
 j = 0
 n = len(d)
 

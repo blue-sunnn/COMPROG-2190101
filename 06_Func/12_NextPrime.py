@@ -1,10 +1,8 @@
 def is_prime(n):
     # Check if n is a prime number
-    if n <= 1:
-        return False
+    if n <= 1: return False
     for k in range(2, int(n ** 0.5) + 1):
-        if n % k == 0:
-            return False
+        if n % k == 0: return False
     return True
 
 

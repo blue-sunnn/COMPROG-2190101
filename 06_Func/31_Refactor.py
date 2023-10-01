@@ -1,7 +1,6 @@
 def read_date():
     # return a list containing day, month, year
-    mname = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-             'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    mname = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     date = input().split()
     d = int(date[0])
     m = mname.index(date[1][:3]) + 1

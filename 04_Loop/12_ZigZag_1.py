@@ -8,7 +8,6 @@ for i in range(n):
     y.append(s[1])
 
 c = input()
-
 xsl = []
 ysl = []
 

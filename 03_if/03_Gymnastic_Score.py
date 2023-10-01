@@ -14,15 +14,11 @@ else:
     Max2 = d
     Min2 = c
 
-if Max1 > Max2:
-    fMax = Max1
-else:
-    fMax = Max2
+if Max1 > Max2: fMax = Max1
+else: fMax = Max2
 
-if Min1 < Min2:
-    fMin = Min1
-else:
-    fMin = Min2
+if Min1 < Min2: fMin = Min1
+else: fMin = Min2
 
 e = (a + b + c + d - (fMax + fMin))/2
 

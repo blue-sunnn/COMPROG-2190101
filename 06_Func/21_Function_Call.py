@@ -10,16 +10,14 @@ def read_answers():
 def marking(answer, solution):
     score = 0
     for i in range(len(answer)):
-        if answer[i] == solution[i]:
-            score += 1
+        if answer[i] == solution[i]: score += 1
     return score
 
 
 def grading(score):
     g = [[80, "A"], [70, "B"], [60, "C"], [50, "D"]]
     for a, b in g:
-        if score >= a:
-            return b
+        if score >= a: return b
     return "F"
 
 
