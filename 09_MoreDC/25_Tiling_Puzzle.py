@@ -20,6 +20,7 @@ def inversions(x):  # return the number of inversions of list x
         for j in range(i, len(x)):
             if x[i] > x[j]:
                 c += 1
+                
     return c
 
 
