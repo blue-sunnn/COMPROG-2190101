@@ -9,7 +9,7 @@ def is_coprime(a, b, c):
     # read a definition of coprime here
     if gcd(a, b) == 1: return True
     if gcd(a, c) == 1: return True
-    if gcd(b, c) == 1:return True
+    if gcd(b, c) == 1: return True
     return False
 
 
