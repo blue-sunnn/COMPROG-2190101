@@ -1,6 +1,6 @@
-### COMPROG 2023
+## 2110101 COMPUTER PROGRAMMING
 
-All these files are a problem from Grader and Major Assignment in 2190101 Computer Programming
+This is a repository containing code in 2110101 COMPUTER PROGRAMMING (Chula Engineering) Semester 1/2023
 
 ***
 
@@ -10,3 +10,8 @@ All these files are a problem from Grader and Major Assignment in 2190101 Comput
 | Assignment 2 | 10 |
 | Assignment 3 | 9.5|
 | Assignment 4 | 10 |
+
+## About this repo
+Code is seperated into :
+> [Grader](Grader): Solution to Grader Exercise.
+> [Major-Assignment](Major-Assignment): My solution to Major assignment in Semester 1/2023
