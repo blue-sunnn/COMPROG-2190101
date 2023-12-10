@@ -14,4 +14,4 @@ This is a repository containing code in 2110101 COMPPROG (Chula Engineering) Sem
 ## About this repo
 Code is seperated into :
 > [Grader](Grader): Solution to Grader Exercise.
-> [Major-Assignment](Major-Assignment): My solution to Major assignment in Semester 1/2023.
+> [Major-Assignment](Major-Assignment): My solution to Major assignment in Semester 1/2023
